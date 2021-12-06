@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, p{
+    color: #313131;
+}
+
+/*Menu Superior*/
+.menuinfo{
+    background-color: #0000ca;
+}
+
+.info{
+    max-width: 1024px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info p{
+    margin: 0 20px;
+    color: white;
+}
+
+/*Menu Principal*/
+header{
+    background-color: #507bf1;
+    color: #fff;
+}
+
+.menu-principal{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+.menu{
+    font-size: 1.2em;
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;
+}
+
+/*Introdução*/
+.intro{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    font-size: 2.5em;
+    border-bottom: 2px solid #507bf1;
+}
+
+/*Sobre*/
+.sobre{
+    max-width: 1024px;
+    border-bottom: 2px solid #507bf1;
+    padding: 60px 0px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sobre-info{
+    
+    margin: 10px;
+}
+
+.sobre-info h2{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.sobre-info p{
+    font-size: 1.2em;
+    color: gray;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.sobre img{
+    width: 220px;
+    margin: 0 20px;
+}
+
+/*Produtos*/
+.produtos{
+    max-width: 1024px;
+    margin: 0  auto;
+    position: relative;
+}
+
+.produtos h2{
+    font-size: 3em;
+    margin: 60px 20px;
+}
+
+.produtos-conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.item{
+    margin: 10px;
+}
+
+.item img{
+    max-width: 300px;
+}
+
+.item h3{
+    font-size: 2.5em;
+    color: gray;
+    padding: 2em 0;
+}
+
+.purple {
+	border-top: 7px solid #b289ff;
+}
+
+.pink {
+	border-top: 7px solid #fd2d65;
+}
+
+.blue {
+	border-top: 7px solid #68dbec;
+}
+
+/*Tabelas de Preços*/
+.precos{
+    background: #e6f5ff;
+    margin-top: 30px;
+    padding: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.valor{
+    flex: 1 1 33%;
+    padding: 30px;
+}
+
+.valor h3{
+    font-size: 3em;
+    color: #a8a8a8;
+    text-align: center;
+}
+
+.valor p{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.valor b{
+    font-size: 2em;
+    vertical-align: top;
+    position:relative;
+    top:-9px;
+}
+
+.valor ul{
+    list-style: none;
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    color: #555555;
+}
+
+.valor li{
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.valor li::after {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #2c70ff;
+    margin-left: 99%;
+}
+
+.valor a{
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    border: solid 3px;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Diferenciais*/
+.dif{
+    max-width: 1024px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dif-item{
+    flex: 1 1 30%;
+    margin: 20px 15px;
+}
+
+.dif-item h2{
+    font-size: 2.2em;
+    color: #a8a8a8;
+    margin-bottom: 15px;
+}
+
+.dif-item p{
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555555;
+}
+
+#purple h2::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #b289ff;
+}
+
+#pink h2::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #fd2d65;
+}
+
+#blue h2::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #68dbec;
+}
+
+/*Notícias*/
+.noticias{
+    background: #e6f5ff;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias-info{
+    margin-right: 5%;
+}
+
+.noticias-info h2{
+    font-size: 3em;
+    color: #a8a8a8;
+}
+
+.noticias-info p{
+    font-size: 1.1em;
+    font-style: italic;
+    color: #636363;
+    max-width: 220px;
+}
+
+.noticias-form input{
+    font-size: 1.2em;
+    font-style: italic;
+    color: #636363;
+    border: solid 3px #507bf1;
+    background: transparent;
+    padding: 15px 33px;
+    vertical-align: bottom;   
+}
+
+.noticias-form button{
+    width: 298px;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #507bf1;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
+
+/*Rodapé*/
+footer {
+	display: flex;
+	background: #507bf1;
+	height: 200px;
+	align-items: center;
+}
+
+footer h2 {
+	flex: 1;
+	text-align: center;
+	font-size: 2em;
+    font-weight: 500;
+	color: #0000ca;
+}

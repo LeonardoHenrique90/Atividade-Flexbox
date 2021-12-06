@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--
+ __        ________   ______   __    __   ______   _______   _______    ______  
+|  \      |        \ /      \ |  \  |  \ /      \ |       \ |       \  /      \ 
+| $$      | $$$$$$$$|  $$$$$$\| $$\ | $$|  $$$$$$\| $$$$$$$\| $$$$$$$\|  $$$$$$\
+| $$      | $$__    | $$  | $$| $$$\| $$| $$__| $$| $$__| $$| $$  | $$| $$  | $$
+| $$      | $$  \   | $$  | $$| $$$$\ $$| $$    $$| $$    $$| $$  | $$| $$  | $$
+| $$      | $$$$$   | $$  | $$| $$\$$ $$| $$$$$$$$| $$$$$$$\| $$  | $$| $$  | $$
+| $$_____ | $$_____ | $$__/ $$| $$ \$$$$| $$  | $$| $$  | $$| $$__/ $$| $$__/ $$
+| $$     \| $$     \ \$$    $$| $$  \$$$| $$  | $$| $$  | $$| $$    $$ \$$    $$
+ \$$$$$$$$ \$$$$$$$$  \$$$$$$  \$$   \$$ \$$   \$$ \$$   \$$ \$$$$$$$   \$$$$$$ 
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>Atividade Flexbox</title>
+</head>
+<body>
+
+    <!--Menu Superior-->
+    <div class="menuinfo">
+        <div class="info">
+            <p>Seg / Sex - 08:00 às 18:00</p>
+            <p>+55 21 9999-9999</p>
+            <p>Av. Ali Perto, 330, Botafogo - RJ</p>
+        </div>
+    </div>
+
+    <!--Menu Principal-->
+    <header>
+        <div class="menu-principal">
+            <div class="logo">
+                <h1>FlexBlog</h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>Sobre</li>
+                    <li>Produtos</li>
+                    <li>Preço</li>
+                    <li>Qualidade</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Introdução-->
+    <h2 class="intro">Novos Valores e <br>Propriedades de CSS</h2>
+
+    <!--Sobre-->
+    <section class="sobre">
+        <div class="sobre-info">
+            <h2>Sobre</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+        </div>
+        <div id="sobre1"><img src="img/sobre1.jpg" alt=""></div>
+        <div id="sobre2"><img src="img/sobre2.jpg" alt=""></div>
+    </section>
+
+    <!--Produtos-->
+    <section class="produtos">
+        <h2>Produtos</h2>
+        <div class="produtos-conteudo">
+            <div class="item purple">
+                <h3>Purple</h3>
+                <img src="img/produtos1.jpg" alt="">
+            </div>
+            <div class="item pink">
+                <h3>Pink</h3>
+                <img src="img/produtos2.jpg" alt="">
+            </div>
+            <div class="item blue">
+                <h3>Blue</h3>
+                <img src="img/produtos3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Tabelas de Preços-->
+    <section class="precos">
+        <div class="valor">
+            <h3>Cobre</h3>
+            <p>R$<b>19</b></p>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+            </ul>
+            <a href="#">COMPRAR</a>
+        </div>
+
+        <div class="valor">
+            <h3>Prata</h3>
+            <p>R$<b>39</b></p>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusiva</li>
+            </ul>
+            <a href="#">COMPRAR</a>
+        </div>
+
+        <div class="valor">
+            <h3>Ouro</h3>
+            <p>R$<b>19</b></p>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusiva</li>
+                <li>Download de Itens</li>
+            </ul>
+            <a href="#">COMPRAR</a>
+        </div>
+    </section>
+
+    <!--Diferenciais-->
+    <section class="dif">
+        <div class="dif-item" id="purple">
+            <h2>Inteligente</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+
+        <div class="dif-item"  id="pink">
+            <h2>Compacto</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+        </div>
+
+        <div class="dif-item"  id="blue">
+            <h2>Econômico</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+
+        <div class="dif-item"  id="purple">
+            <h2>Transparente</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+
+        <div class="dif-item" id="pink">
+            <h2>Opaco</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+        </div>
+
+        <div class="dif-item" id="blue">
+            <h2>Sustentável</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+    </section>
+
+    <!--Notícias-->
+    <section class="noticias">
+        <div class="noticias-info">
+            <h2>Newsletter</h2>
+            <p>assine e fique por dentro das novidades</p>
+        </div>
+        <form class="noticias-form">
+            <input type="text" placeholder="Seu e-mail">
+            <button type="submit">Assinar</button>
+        </form>
+    </section>
+
+    <!--Rodapé-->
+    <footer>
+		<h2>FlexBlog © Todos os direitos reservados.</h2>
+	</footer>
+    
+</body>
+</html>
